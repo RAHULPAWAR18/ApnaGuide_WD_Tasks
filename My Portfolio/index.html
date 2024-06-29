@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="JavaScript" href="script.js">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Rahul Pawar</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Rahul Pawar</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#project" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./asset/My Image.png" alt="Rahul Pawar Profile  Picture" class="img">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Rahul Pawar</h1>
+            <p class="section__text__p2">WEB DEVELOPER</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./asset/Rahul Pawar Resume.pdf')">
+                Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='https://www.linkedin.com/in/rahul-pawar-994bb7235'">
+                    Contact Info</button>
+            </div>
+            <div class="socials-container">
+                <img src="./asset/linkedin.png" alt="My linkedin profile" class="icon" 
+                onclick="location.href='https://www.linkedin.com/in/rahul-pawar-994bb7235'">
+                <img src="./asset/github.png" alt="My github profile" class="icon" 
+                onclick="location.href='https://github.com/RAHULPAWAR18'">
+            </div>
+        </div>
+
+    </section>
+
+    <section id="about">
+        <p class="section__text__p1">Get to know more</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./asset/My Image.png" 
+                alt="Profile Picture"
+                class="about-pic">
+
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./asset/experience.png" alt="experience icon"
+                        class="icon">
+                        <h3>Experience</h3>
+                        <p>1 month Experience <p> 
+                        <b>Prasunet Company</b></p>
+                        </p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./asset/education.png" alt="education icon"
+                        class="icon">
+                        <h3>Education</h3>
+                        <p><b>Bachelors' Degree</b><br>Bachelors of Engineering in Computer Engineering(Ongoing)</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>As a web developer, I am passionate about crafting engaging and functional experiences on the internet. 
+                        With a solid foundation in HTML, CSS, and JavaScript, I thrive on turning design concepts into responsive
+                         and interactive websites. My journey in web development began with learning the basics offront-end
+                          technologies, where in  my skills in creating layouts, styling elements, and enhancing user
+                           interfaces to ensure seamless navigation and aesthetic appeal.
+
+                        I am adept at utilizing popular frameworks such as React.js and Node.js to build dynamic and scalable
+                         web applications that deliver optimal performance across various devices and browsers.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <img src="./asset/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+
+    <section id="experience">
+        <p class="section__text__p1">Explore my</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./asset/checkmark.png" alt="experience icon" class="icon">
+                        <div>
+                            <h3>HTML</h3>
+                            <p>Experienced</p>
+                        </div>
+
+                        </article>
+                        <article>
+                            <img src="./asset/checkmark.png" alt="experience icon" class="icon">
+                        <div>
+                            <h3>CSS</h3>
+                            <p>Experienced</p>
+                        </div>
+
+                        </article>
+                        <article>
+                            <img src="./asset/checkmark.png" alt="experience icon" class="icon">
+                        <div>
+                            <h3>JavaScript</h3>
+                            <p>Basic</p>
+                        </div>
+
+                        </article>
+                        <article>
+                            <img src="./asset/checkmark.png" alt="experience icon" class="icon">
+                        <div>
+                            <h3>TypeScript</h3>
+                            <p>Basic</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Backend Development</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./asset/checkmark.png" alt="expereince icon" class="icon">
+                            <div>
+                                <h3>Node.js</h3>
+                                <p>Basic</p>
+                            </div>
+    
+                            </article>
+                            <article>
+                                <img src="./asset/checkmark.png" alt="expereince icon" class="icon">
+                            <div>
+                                <h3>Express.js</h3>
+                                <p>Basic</p>
+                            </div>
+    
+                            </article>
+                            <article>
+                                <img src="./asset/checkmark.png" alt="expereince icon" class="icon">
+                            <div>
+                                <h3>Git</h3>
+                                <p>Basic</p>
+                            </div>
+                            
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+            <img src="./asset/arrow.png" alt="Arrow"
+            class="icon arrow"
+            onclick="location.href='./#project'">
+        </section>
+    
+
+    <section id="project">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+        <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title">
+                Arduino Bluetooth Car
+            </h2>
+            <div class="btn-container">
+                <h3> 
+                    <p> In this project we have created a car which is controlled via Bluetooth using a Smartphone.
+                    This project helps us to understand the working of
+                    Bluetooth module and using it with motors and Arduinoboard.
+                    It is a great project for learning basics of Arduino board,Motor Driver and using the Adafruit Motor Library.
+                </p> 
+                </h3>
+            </div>
+        </div>
+        <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title">
+                Extracting Text from Image
+            </h2>
+            <div class="btn-container">
+                <h3> 
+                    <p> I have created a website including the frontend, backendand database connection for extracting the text fromimage.
+                        It was a group project for our University subject DesignEngineering.
+                        We have used Google's Tesseract-OCR engine for OCRrecognition.
+                    </p> 
+                </h3>
+             
+            </div>
+        </div>
+        
+        </div></div></div>
+        <img src="./asset/arrow.png" alt="Arrow"
+        class="icon arrow"
+        onclick="location.href='./#contact'">
+    </section>
+
+    <section id="contact">
+        <p class="section__text__p1">
+            Get in Touch
+        </p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./asset/linkedin.png" alt="linkedin icon" class="iconLinkedin contact-icon">
+                <p><a href="https://www.linkedin.com/in/rahul-pawar-994bb7235">LinkedIn</a></p>
+            </div>   
+            <div class="contact-info-container">
+                <img src="./asset/instagram.png" alt="linkedin icon" class="iconLinkedin contact-icon">
+                <p><a href="https://www.instagram.com/rahul_panwar2002">Instagram</a></p>
+            </div> 
+        </div>
+    </section>
+    
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+            </div>
+        </nav>
+        <p>Copyright&#169; Rahul Pawar. All Rights Reserved. </p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
