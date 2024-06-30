@@ -369,7 +369,6 @@ article .icon{
     color: black;
 }
 
-
 /* Contact */
 
 #contact{
@@ -412,7 +411,10 @@ article .icon{
 
 }
 
+.iconInstagram{
+    margin-top: 0.2rem;
 
+}
 
 /* footer */
 
